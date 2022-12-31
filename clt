@@ -1,0 +1,35 @@
+[33mcommit 1c5a3b2c4a891cc87e543137d840086cf7702dee[m[33m ([m[1;36mHEAD -> [m[1;32mbeta[m[33m)[m
+Author: asikhsingh <amritpalasingh@outlook.com>
+Date:   Sat Dec 31 02:21:57 2022 -0500
+
+    App started and tested at  1:28
+
+[33mcommit 2323b073d5acdc4264c45ff04747350880698a6f[m[33m ([m[1;31morigin/beta[m[33m)[m
+Author: asikhsingh <amritpalasingh@outlook.com>
+Date:   Thu Dec 22 01:34:19 2022 -0500
+
+    first layout working 46.15
+
+[33mcommit 51f674283420ea62bfad5abea66a492b1b432124[m
+Author: asikhsingh <amritpalasingh@outlook.com>
+Date:   Wed Dec 21 21:25:44 2022 -0500
+
+    21 venruabilities and clients packages installed and React working
+
+[33mcommit 6526523503b5ba34654b9cd25c19cce19a810a63[m
+Author: asikhsingh <amritpalasingh@outlook.com>
+Date:   Wed Dec 21 01:41:22 2022 -0500
+
+    server ready after creating server folder data and index.js and err repaired with mongoose 6.7.3 installation
+
+[33mcommit 2751f7ed00fb5376d7c86966fb1dd67fb185c9c7[m
+Author: asikhsingh <amritpalasingh@outlook.com>
+Date:   Tue Dec 20 19:01:17 2022 -0500
+
+    npm server packages installed
+
+[33mcommit 43e574a6724364b662485cd40af5246c84fe5b7e[m[33m ([m[1;32mmain[m[33m)[m
+Author: asikhsingh <amritpalasingh@outlook.com>
+Date:   Tue Dec 20 18:46:01 2022 -0500
+
+    npm init -y
