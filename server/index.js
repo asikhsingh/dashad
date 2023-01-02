@@ -53,7 +53,7 @@ mongoose
   .then(() => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
 
-    /* ONLY ADD DATA ONE TIME */
+    /* ONLY ADD DATA ONE TIME HELLO SINGH*/
     // AffiliateStat.insertMany(dataAffiliateStat);
     // OverallStat.insertMany(dataOverallStat);
     // Product.insertMany(dataProduct);
