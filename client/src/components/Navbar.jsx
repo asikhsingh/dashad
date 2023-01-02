@@ -4,7 +4,7 @@ import {
   LightModeOutlined,
   DarkModeOutlined,
   Menu as MenuIcon,
-  // Search,
+  Search,
   SettingsOutlined,
   // ArrowDropDownOutlined,
   // DarkMode,
@@ -48,7 +48,7 @@ const Navbar = ({isSidebarOpen,setIsSidebarOpen}) => {
           >
             <InputBase placeholder="Search..." />
             <IconButton>
-              <search />
+              <Search />
             </IconButton>
           </FlexBetween>
         </FlexBetween>
