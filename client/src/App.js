@@ -6,6 +6,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { themeSettings } from "./theme";
 import Layout from "./scenes/layout";
 import Dashboard from "./scenes/dashboard";
+import Products from "./scenes/product";
 
 // import Products from "scenes/products";
 // import Customers from "scenes/customers";
@@ -30,8 +31,8 @@ function App() {
             <Route element={<Layout />}>
               <Route path="/" element={<Navigate to="/dashboard" replace />} />
               <Route path="/dashboard" element={<Dashboard />} />
-              {/* <Route path="/products" element={<Products />} />
-              <Route path="/customers" element={<Customers />} />
+              <Route path="/products" element={<Products />} />
+              {/* <Route path="/customers" element={<Customers />} />
               <Route path="/transactions" element={<Transactions />} />
               <Route path="/geography" element={<Geography />} />
               <Route path="/overview" element={<Overview />} />
