@@ -7,6 +7,7 @@ import { themeSettings } from "./theme";
 import Layout from "./scenes/layout";
 import Dashboard from "./scenes/dashboard";
 import Products from "./scenes/product";
+import Customers from "./scenes/customers/index.jsx"
 
 // import Products from "scenes/products";
 // import Customers from "scenes/customers";
@@ -32,15 +33,8 @@ function App() {
               <Route path="/" element={<Navigate to="/dashboard" replace />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/products" element={<Products />} />
-              {/* <Route path="/customers" element={<Customers />} />
-              <Route path="/transactions" element={<Transactions />} />
-              <Route path="/geography" element={<Geography />} />
-              <Route path="/overview" element={<Overview />} />
-              <Route path="/daily" element={<Daily />} />
-              <Route path="/monthly" element={<Monthly />} />
-              <Route path="/breakdown" element={<Breakdown />} />
-              <Route path="/admin" element={<Admin />} />
-              <Route path="/performance" element={<Performance />} /> */}
+              <Route path="/customers" element={<Customers />}/>
+            
             </Route>
           </Routes>
         </ThemeProvider>
