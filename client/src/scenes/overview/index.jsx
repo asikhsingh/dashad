@@ -4,7 +4,7 @@ import Header from '../../components/Header'
 import OverviewChart from "../../components/OverviewChart";
 
 const Overview = () => {
-  const [view, setView] = useState("units");
+  const [view, setView] = useState("sales");
 
   return (
     <Box m="1.5rem 2.5rem">
@@ -16,7 +16,7 @@ const Overview = () => {
                 <InputLabel>View</InputLabel>
                 <Select value={view} label="view" onChange={(e) => setView(e.target.value)}>
                     <MenuItem value="sales">Sales</MenuItem>
-                    <MenuItem value="sales">Sales</MenuItem>
+                    <MenuItem value="units">Units</MenuItem>
                 </Select>
             </FormControl>
             <OverviewChart view={view} />
