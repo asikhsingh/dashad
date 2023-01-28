@@ -15,7 +15,7 @@ import Transactions from "./scenes/transactions"
 // import Transactions from "scenes/transactions";
 import Geography from "./scenes/geography";
 import Overview from "./scenes/overview";
-// import Daily from "scenes/daily";
+import Daily from "./scenes/daily";
 // import Monthly from "scenes/monthly";
 // import Breakdown from "scenes/breakdown";
 // import Admin from "scenes/admin";
@@ -38,6 +38,7 @@ function App() {
               < Route path="/transaction" element={<Transactions/>}/>
               < Route path="/geography" element={<Geography/>} />
               < Route path="/overview" element={<Overview />} />
+              < Route path="/daily" element={<Daily />} />
             
             </Route>
           </Routes>
