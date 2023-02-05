@@ -4,7 +4,7 @@ import {
   getCustomers,
   getTransactions,
   getGeography,
-} from "./controllers/client.js.js";
+} from "../controllers/client.js";
 
 
 const clientRoutes = express.Router();
